@@ -1,0 +1,115 @@
+html {padding:0;border:0;}
+body, span, section {padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+section {display:block;}
+
+body {
+    line-height: 1.4;
+    background: #FFF:
+}
+
+#wrapper {
+    min-height: 450px;
+    width: 960px;
+    margin: 100px auto 20px;
+    background: url(my.png) no-repeat 115% 0;
+    font-family: 'Special Elite', cursive;
+}
+
+h1 {
+  line-height: 1.4;
+  font-family: courier;
+  font-size: 12px;
+  padding-top: 7%;
+}
+
+h1 .lastname { color: #000; }
+
+h1 .nbsp, h1 .firstname .sz { display: none; }
+
+.firstname:hover .sz { display: inline }
+span.firstname:hover ~ .nbsp ~ span.lastname > span.sz { display: none }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+  h1:hover .firstname .sz { display: inline }
+  h1:hover .lastname .sz { display: none }
+
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0px 10px 0px 0px;
+  width: 65%;
+  text-align: center;
+}
+
+h2:hover {
+	text-shadow: 3px 3px 3px #6f6f6f;
+}
+
+.js h1, .js h2 { display: none }
+
+
+
+span.lastname > .sz {
+    -webkit-animation: neon 5s infinite alternate;
+    -moz-animation:    neon 5s infinite alternate;
+    -ms-animation:     neon 5s infinite alternate;
+    -o-animation:      neon 5s infinite alternate;
+    animation:         neon 5s infinite alternate;
+}
+
+@-webkit-keyframes neon {
+     0%, 19% { color: #000 }
+    20%, 29% { color: #777 }
+    30%, 34% { color: #000 }
+    35%, 44% { color: #777 }
+    45%, 59% { color: #000 }
+    60%, 79% { color: #777 }
+    80%, 89% { color: #000 }
+    90%,100% { color: #777 }
+}
+
+@-moz-keyframes neon {
+     0%, 19% { color: #000 }
+    20%, 29% { color: #777 }
+    30%, 34% { color: #000 }
+    35%, 44% { color: #777 }
+    45%, 59% { color: #000 }
+    60%, 79% { color: #777 }
+    80%, 89% { color: #000 }
+    90%,100% { color: #777 }
+}
+
+@-ms-keyframes neon {
+     0%, 19% { color: #000 }
+    20%, 29% { color: #777 }
+    30%, 34% { color: #000 }
+    35%, 44% { color: #777 }
+    45%, 59% { color: #000 }
+    60%, 79% { color: #777 }
+    80%, 89% { color: #000 }
+    90%,100% { color: #777 }
+}
+
+@-o-keyframes neon {
+     0%, 19% { color: #000 }
+    20%, 29% { color: #777 }
+    30%, 34% { color: #000 }
+    35%, 44% { color: #777 }
+    45%, 59% { color: #000 }
+    60%, 79% { color: #777 }
+    80%, 89% { color: #000 }
+    90%,100% { color: #777 }
+}
+
+@-ms-keyframes neon {
+     0%, 19% { color: #000 }
+    20%, 29% { color: #777 }
+    30%, 34% { color: #000 }
+    35%, 44% { color: #777 }
+    45%, 59% { color: #000 }
+    60%, 79% { color: #777 }
+    80%, 89% { color: #000 }
+    90%,100% { color: #777 }
+}
